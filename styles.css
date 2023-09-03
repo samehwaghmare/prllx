@@ -1,0 +1,397 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(100, 100, 100, 0.1);
+  padding: 10px 0;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar li {
+  margin: 0 60px;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-family: Montserrat;
+  font-size: 1.2em;
+  color: white;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #f40009;
+}
+
+.heading-container {
+  text-align: center;
+}
+
+.parallax-1 h2,
+.parallax-2 h2,
+.parallax-3 h2,
+.parallax-4 h2,
+.parallax-5 h2 {
+  font-size: 15em; 
+}
+
+@media (max-width: 1300px) {
+  .parallax-1 h2,
+  .parallax-2 h2,
+  .parallax-3 h2,
+  .parallax-4 h2,
+  .parallax-5 h2 {
+    font-size: calc(15em * 0.7);
+  }
+}
+
+@media (max-width: 950px) {
+  .parallax-1 h2,
+  .parallax-2 h2,
+  .parallax-3 h2,
+  .parallax-4 h2,
+  .parallax-5 h2 {
+    font-size: calc(15em * 0.4);
+  }
+}
+
+@media (max-width: 1500px) {
+  #coca-cola .hover-container h2 {
+    font-size: calc(15em * 0.85); 
+  }
+}
+
+@media (max-width: 1300px) {
+  #coca-cola .hover-container h2 {
+    font-size: calc(15em * 0.7); 
+  }
+}
+
+@media (max-width: 1150px) {
+  #coca-cola .hover-container h2 {
+    font-size: calc(15em * 0.6); 
+  }
+}
+
+@media (max-width: 950px) {
+  #coca-cola .hover-container h2 {
+    font-size: calc(15em * 0.4); 
+  }
+}
+
+.parallax-1 {
+  width: 100%;
+  height: 100vh;
+  background: url("https://images.unsplash.com/photo-1616142914433-71120bc70202?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2456&q=80");
+  background-size: cover;
+  background-attachment: fixed;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parallax-1 h2 {
+  font-family: Montserrat;
+  color: whitesmoke;
+  text-align: center;
+  margin: auto;
+  white-space: nowrap;
+  display: inline-block;
+  transition: color 0.3s;
+  line-height: 0.8;
+}
+
+.sub-heading {
+  font-family: Montserrat;
+  font-size: 1.5em;
+  color: whitesmoke;
+  text-align: center;
+  margin-top: 5px;
+  padding: 10px;
+}
+
+.para-1 {
+  text-align: center;
+}
+
+.para-1 p {
+  font-family: Raleway;
+  font-size: 20px;
+}
+
+.para-1-background {
+  background-color: rgb(0, 0, 0);
+  color: whitesmoke;
+  padding: 45px 20px;
+}
+
+.parallax-2 {
+  width: 100%;
+  height: 100vh;
+  background: url("https://images.unsplash.com/photo-1581098365948-6a5a912b7a49?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80");
+  background-size: cover;
+  background-attachment: fixed;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parallax-2 h2 {
+  font-family: Montserrat;
+  color: whitesmoke;
+  text-align: center;
+  margin: auto;
+  white-space: nowrap;
+  display: inline-block;
+  transition: color 0.5s;
+}
+
+.parallax-2 h2:hover {
+  color: #f40009;
+}
+
+.hover-container {
+  position: relative;
+  display: inline-block;
+}
+
+.hover-text {
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: Montserrat;
+  font-size: 15px;
+  color: rgba(255, 255, 255);
+  transition: opacity 0.3s;
+}
+
+.hover-container:hover .hover-text {
+  opacity: 0;
+}
+
+.para-2 {
+  text-align: center;
+}
+
+.para-2 p {
+  font-family: Raleway;
+  font-size: 17px;
+  margin: 0 0;
+  padding: 0 200px;
+}
+
+.para-2-background {
+  background-color: rgb(0, 0, 0);
+  color: whitesmoke;
+  padding: 45px 0;
+  backdrop-filter: blur(10px);
+}
+
+.parallax-3 {
+  width: 100%;
+  height: 100vh;
+  background: url("https://www.wallpaperflare.com/static/580/96/1009/brand-red-bull-red-bull-wallpaper-preview.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parallax-3 h2 {
+  font-family: Montserrat;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 8px;
+  margin: auto;
+  white-space: nowrap;
+  display: inline-block;
+  transition: color 0.3s;
+  line-height: 0.8;
+  letter-spacing: -10px;
+  transition: letter-spacing 0.3s;
+}
+
+.parallax-3 h2:hover {
+  letter-spacing: 16px;
+}
+
+.para-3 {
+  text-align: center;
+}
+
+.para-3 p {
+  font-family: Raleway;
+  font-size: 17px;
+  margin: 0 0;
+  padding: 0 200px;
+}
+
+.para-3-background {
+  background-color: rgb(0, 0, 0);
+  color: whitesmoke;
+  padding: 45px 0;
+}
+
+.parallax-4 {
+  width: 100%;
+  height: 100vh;
+  background: url("https://images.unsplash.com/photo-1634693654243-a4f03785cba4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2564&q=80");
+  background-size: cover;
+  background-attachment: fixed;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parallax-4 h2 {
+  font-family: Montserrat;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 8px;
+  margin: auto;
+  white-space: nowrap;
+  display: inline-block;
+  transition: color 0.3s;
+  line-height: 0.8;
+  transition: transform 0.3s, opacity 0.3s;
+}
+.parallax-4 h2:hover {
+  filter: blur(15px);
+  opacity: 0.1;
+  transform: scale(1.2);
+}
+
+.para-4 {
+  text-align: center;
+}
+
+.para-4 p {
+  font-family: Raleway;
+  font-size: 17px;
+  margin: 0 0;
+  padding: 0 200px;
+}
+
+.para-4-background {
+  background-color: rgb(0, 0, 0);
+  color: whitesmoke;
+  padding: 45px 0;
+}
+
+.parallax-5 {
+  width: 100%;
+  height: 100vh;
+  background: url("https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80");
+  background-size: cover;
+  background-attachment: fixed;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parallax-5 h2 {
+  font-family: Montserrat;
+  color: beige;
+  text-align: center;
+  border-radius: 8px;
+  margin: auto;
+  white-space: nowrap;
+  display: inline-block;
+  transition: color 0.3s;
+  line-height: 0.8;
+  letter-spacing: -10px;
+  transition: opacity 0.3s;
+}
+
+.parallax-5 h2:hover {
+  opacity: 0;
+}
+
+.para-5 {
+  text-align: center;
+}
+
+.para-5 p {
+  font-family: Raleway;
+  font-size: 17px;
+  margin: 0;
+  padding: 0 100px;
+}
+
+.para-5-background {
+  background-color: rgb(0, 0, 0);
+  color: beige;
+  padding: 45px 0;
+}
+
+.sub-text {
+  font-family: Montserrat;
+  font-size: 1.2em;
+  color: beige;
+  margin-top: 10px;
+}
+
+.footer {
+  background-color: #000000;
+  color: beige;
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid white;
+}
+
+.footer-text {
+  font-family: Montserrat;
+  font-size: 1.3em;
+  margin: 10px 150px;
+}
+
+#back-to-top-button {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  transition: opacity 0.3s;
+}
+
+#back-to-top-button a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(255, 255, 255, 0.1);
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#back-to-top-button.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
