@@ -47,7 +47,7 @@
 .parallax-3 h2,
 .parallax-4 h2,
 .parallax-5 h2 {
-  font-size: 15em; 
+  font-size: 15em;
 }
 
 @media (max-width: 1300px) {
@@ -72,25 +72,25 @@
 
 @media (max-width: 1500px) {
   #coca-cola .hover-container h2 {
-    font-size: calc(15em * 0.85); 
+    font-size: calc(15em * 0.85);
   }
 }
 
 @media (max-width: 1300px) {
   #coca-cola .hover-container h2 {
-    font-size: calc(15em * 0.7); 
+    font-size: calc(15em * 0.7);
   }
 }
 
 @media (max-width: 1150px) {
   #coca-cola .hover-container h2 {
-    font-size: calc(15em * 0.6); 
+    font-size: calc(15em * 0.6);
   }
 }
 
 @media (max-width: 950px) {
   #coca-cola .hover-container h2 {
-    font-size: calc(15em * 0.4); 
+    font-size: calc(15em * 0.4);
   }
 }
 
@@ -115,6 +115,7 @@
   display: inline-block;
   transition: color 0.3s;
   line-height: 0.8;
+  cursor: default;
 }
 
 .sub-heading {
@@ -161,6 +162,7 @@
   white-space: nowrap;
   display: inline-block;
   transition: color 0.5s;
+  cursor: default;
 }
 
 .parallax-2 h2:hover {
@@ -229,6 +231,7 @@
   line-height: 0.8;
   letter-spacing: -10px;
   transition: letter-spacing 0.3s;
+  cursor: default;
 }
 
 .parallax-3 h2:hover {
@@ -275,6 +278,7 @@
   transition: color 0.3s;
   line-height: 0.8;
   transition: transform 0.3s, opacity 0.3s;
+  cursor: default;
 }
 .parallax-4 h2:hover {
   filter: blur(15px);
@@ -323,6 +327,7 @@
   line-height: 0.8;
   letter-spacing: -10px;
   transition: opacity 0.3s;
+  cursor: default;
 }
 
 .parallax-5 h2:hover {
